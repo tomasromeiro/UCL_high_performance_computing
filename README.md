@@ -1,5 +1,5 @@
 # Techniques of High-Performance Computing (Computational Finance MSc at UCL)
-**Author**: [Tomás Romeiro]
+**Author**: Tomás Romeiro
 
 ## Overview
 This repository contains a the Jupyter notebook — `final_notebook.ipynb` — that presents a numerical solution of the two-dimensional heat equation (a classic partial differential equation) on a square domain \([-1,1]\times[-1,1]\). The primary aim of this assignment is to determine the time \(t^*\) at which the temperature at the center of the plate (\(x=0, y=0\)) reaches \(u=1\), given a specific initial/boundary condition setup. We use both **explicit** and **implicit** finite difference schemes, explore their stability, and compare our numerical results against a known analytic value \(t^* = 0.424011387033\).
